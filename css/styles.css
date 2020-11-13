@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+header ul {
+    padding: 0;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+}
