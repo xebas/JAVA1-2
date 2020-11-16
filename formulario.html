@@ -1,0 +1,56 @@
+<!-- HTML: lenguaje de etiquestas que proporciana la estructura de una web -->
+<!DOCTYPE html>
+<!-- html: nombre etiqueta
+lang: atributo
+"en": valor del atributo -->
+<html lang="en">
+<!-- HEAD: Todos los elementos de configuración de la web -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS</title>
+    <!-- links a estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- links a los archivos Javascript -->
+    <script type="text/javascript" src="js/validacion.js"></script>
+</head>
+<!-- BODY: Todos los elementos visuales dentro del navegador -->
+
+<body>
+    <!-- en HTML, si queremos incrustar código JS, lo añadiremos dentro
+        de las etiquetas <script></script> -->
+    <!-- <script>
+            alert();
+        </script> -->
+    <!-- CABECERA -->
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <div class="main_form">
+            <h3>Registro</h3>
+            <form action="http://google.es">
+                <input type="text" placeholder="nombre">
+                <input type="email" placeholder="email">
+                <input type="tel" placeholder="teléfono">
+                <input type="password" placeholder="contraseña (6 caract min)">
+                <input type="password" placeholder="repite contraseña">
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+    </main>
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>Web ejemplo JS</p>
+    </footer>
+</body>
+
+</html>
